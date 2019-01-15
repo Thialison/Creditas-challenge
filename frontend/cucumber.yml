@@ -1,0 +1,3 @@
+default: --no-source --color --format pretty
+report_window: -p default -f html -o report/relatorio_window.html --exclude features/checkbox.feature
+report_checkbox: -p default -f html -o report/relatorio_checkbox.html --exclude features/new_window.feature
